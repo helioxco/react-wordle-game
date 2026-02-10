@@ -1,0 +1,28 @@
+{
+  "name": "react-typescript",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+      "react": "^18.1.0",
+      "react-dom": "^18.1.0",
+      "react-router-dom": "^6.3.0"
+  },
+  "devDependencies": {
+      "@vitejs/plugin-react": "^4.2.1",
+      "chai": "^4.4.1",
+      "mocha": "^11.7.5", 
+      "vite": "^5.1.4"
+  },
+  "scripts": {
+      "start": "vite",
+      "build": "vite build",
+      "prettier": "npx prettier --write *"
+  },
+  "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+  ]
+}

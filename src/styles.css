@@ -1,0 +1,25 @@
+
+/* initial styling for a letter's box, use if you'd like */
+.guess-letter {
+  background-color: #fff;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  border: 1px solid black;
+  width: 2rem;
+  height: 2rem;
+}
+
+/* basic page styling */
+body {
+  background-color: #EEE1D1;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  min-height: 100vh;
+  margin: 0;
+}
